@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="07ee9a8fb7e24c8a85fdda70a36cd458" Name="Diagram1">
+        <EntityTypeShape EntityType="CurrentAccountModel.Category" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CurrentAccountModel.Customer" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CurrentAccountModel.Employee" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CurrentAccountModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CurrentAccountModel.Sale" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CurrentAccountModel.Supplier" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CurrentAccountModel.sysdiagram" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="CurrentAccountModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="CurrentAccountModel.FK_Sales_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="CurrentAccountModel.FK_Sales_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="CurrentAccountModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="CurrentAccountModel.FK_Sales_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
